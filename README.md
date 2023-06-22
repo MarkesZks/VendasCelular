@@ -1,4 +1,4 @@
-<img src="https://media.discordapp.net/attachments/460955986581127199/1121413369325432842/capas_e_acessorios_2.png" alt="loho">
+<img src="https://media.discordapp.net/attachments/460955986581127199/1121413369325432842/capas_e_acessorios_2.png" alt="loho" width="350px">
 
 # Cell Vendas - Vendas de telemoveis
 
@@ -10,9 +10,6 @@ Para ver o desenvolvimento acesse o planejamento:
 
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario/seu-repositorio/projects/1)
 
-Para ver o desenvolvimento mais detalhado acesse o devlog:
-
-[![Devlog](https://img.shields.io/badge/Devlog-999999?style=for-the-badge&logo=Files&logoColor=white)](https://gist.github.com/seu-usuario/sua-gist-ou-readme)
 
 ## Feito Com:
 [![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/pt-br/windows/get-windows-10)
