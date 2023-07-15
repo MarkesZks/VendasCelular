@@ -1,0 +1,332 @@
+09-Jun-2023 08:35:41.779 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Jun-2023 08:35:41.780 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 08:35:41.786 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Jun-2023 08:35:41.977 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebApplicationFreshFood] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Jun-2023 08:35:41.977 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebApplicationFreshFood] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+09-Jun-2023 08:35:41.985 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 08:35:42.001 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 11:52:30.067 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.9
+09-Jun-2023 11:52:30.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2023 14:30:05 UTC
+09-Jun-2023 11:52:30.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.9.0
+09-Jun-2023 11:52:30.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Jun-2023 11:52:30.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jun-2023 11:52:30.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jun-2023 11:52:30.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+09-Jun-2023 11:52:30.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+09-Jun-2023 11:52:30.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jun-2023 11:52:30.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 11:52:30.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 11:52:30.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\logging.properties
+09-Jun-2023 11:52:30.087 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jun-2023 11:52:30.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jun-2023 11:52:30.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jun-2023 11:52:30.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jun-2023 11:52:30.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jun-2023 11:52:30.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jun-2023 11:52:30.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jun-2023 11:52:30.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jun-2023 11:52:30.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 11:52:30.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 11:52:30.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\temp
+09-Jun-2023 11:52:30.097 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Arquivos de Programas 2\Git\cmd;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\GABRIEL\AppData\Local\Microsoft\WindowsApps;;C:\Users\GABRIEL\AppData\Local\Programs\Microsoft VS Code\bin;.]
+09-Jun-2023 11:52:30.464 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 11:52:30.499 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [640] milliseconds
+09-Jun-2023 11:52:30.564 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jun-2023 11:52:30.564 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.9]
+09-Jun-2023 11:52:30.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml]
+09-Jun-2023 11:52:30.602 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicationFreshFood] in deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has been ignored
+09-Jun-2023 11:52:31.407 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:52:31.524 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has finished in [945] ms
+09-Jun-2023 11:52:31.524 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\docs]
+09-Jun-2023 11:52:31.616 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:52:31.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\docs] has finished in [96] ms
+09-Jun-2023 11:52:31.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\examples]
+09-Jun-2023 11:52:32.093 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:52:32.153 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\examples] has finished in [532] ms
+09-Jun-2023 11:52:32.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\host-manager]
+09-Jun-2023 11:52:32.241 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:52:32.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\host-manager] has finished in [96] ms
+09-Jun-2023 11:52:32.250 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\manager]
+09-Jun-2023 11:52:32.335 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:52:32.340 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\manager] has finished in [89] ms
+09-Jun-2023 11:52:32.340 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\ROOT]
+09-Jun-2023 11:52:32.420 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:52:32.424 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\ROOT] has finished in [84] ms
+09-Jun-2023 11:52:32.429 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 11:52:32.487 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1986] milliseconds
+09-Jun-2023 11:53:25.904 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Jun-2023 11:53:25.904 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 11:53:25.912 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Jun-2023 11:53:25.937 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 11:53:25.954 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 11:55:16.163 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.9
+09-Jun-2023 11:55:16.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2023 14:30:05 UTC
+09-Jun-2023 11:55:16.174 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.9.0
+09-Jun-2023 11:55:16.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Jun-2023 11:55:16.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jun-2023 11:55:16.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jun-2023 11:55:16.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+09-Jun-2023 11:55:16.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+09-Jun-2023 11:55:16.175 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jun-2023 11:55:16.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 11:55:16.176 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 11:55:16.193 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\logging.properties
+09-Jun-2023 11:55:16.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jun-2023 11:55:16.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jun-2023 11:55:16.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jun-2023 11:55:16.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jun-2023 11:55:16.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jun-2023 11:55:16.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jun-2023 11:55:16.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jun-2023 11:55:16.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jun-2023 11:55:16.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 11:55:16.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 11:55:16.194 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\temp
+09-Jun-2023 11:55:16.202 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Arquivos de Programas 2\Git\cmd;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\GABRIEL\AppData\Local\Microsoft\WindowsApps;;C:\Users\GABRIEL\AppData\Local\Programs\Microsoft VS Code\bin;.]
+09-Jun-2023 11:55:16.814 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 11:55:16.874 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1146] milliseconds
+09-Jun-2023 11:55:16.957 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jun-2023 11:55:16.957 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.9]
+09-Jun-2023 11:55:16.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml]
+09-Jun-2023 11:55:17.034 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicationFreshFood] in deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has been ignored
+09-Jun-2023 11:55:17.452 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:55:17.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has finished in [563] ms
+09-Jun-2023 11:55:17.537 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\docs]
+09-Jun-2023 11:55:17.620 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:55:17.623 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\docs] has finished in [86] ms
+09-Jun-2023 11:55:17.624 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\examples]
+09-Jun-2023 11:55:18.058 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:55:18.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\examples] has finished in [490] ms
+09-Jun-2023 11:55:18.114 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\host-manager]
+09-Jun-2023 11:55:18.208 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:55:18.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\host-manager] has finished in [101] ms
+09-Jun-2023 11:55:18.216 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\manager]
+09-Jun-2023 11:55:18.305 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:55:18.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\manager] has finished in [92] ms
+09-Jun-2023 11:55:18.308 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\ROOT]
+09-Jun-2023 11:55:18.368 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:55:18.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\ROOT] has finished in [62] ms
+09-Jun-2023 11:55:18.374 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 11:55:18.418 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1542] milliseconds
+09-Jun-2023 11:55:39.480 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplicationFreshFood]
+09-Jun-2023 11:55:39.504 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml]
+09-Jun-2023 11:55:39.505 WARNING [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicationFreshFood] in deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has been ignored
+09-Jun-2023 11:55:39.996 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:55:39.999 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has finished in [495] ms
+09-Jun-2023 11:55:40.003 INFO [http-nio-8080-exec-9] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplicationFreshFood]] after start() had already been called. The second call will be ignored.
+09-Jun-2023 11:55:42.093 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplicationFreshFood] has started
+09-Jun-2023 11:55:42.810 INFO [http-nio-8080-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 11:55:42.812 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplicationFreshFood] is completed
+09-Jun-2023 14:09:53.937 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Jun-2023 14:09:53.938 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 14:09:53.943 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Jun-2023 14:09:53.965 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebApplicationFreshFood] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Jun-2023 14:09:53.966 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebApplicationFreshFood] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+09-Jun-2023 14:09:53.972 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 14:09:53.985 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 14:44:18.066 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.9
+09-Jun-2023 14:44:18.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2023 14:30:05 UTC
+09-Jun-2023 14:44:18.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.9.0
+09-Jun-2023 14:44:18.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Jun-2023 14:44:18.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jun-2023 14:44:18.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jun-2023 14:44:18.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+09-Jun-2023 14:44:18.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+09-Jun-2023 14:44:18.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jun-2023 14:44:18.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 14:44:18.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 14:44:18.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\logging.properties
+09-Jun-2023 14:44:18.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jun-2023 14:44:18.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jun-2023 14:44:18.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jun-2023 14:44:18.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jun-2023 14:44:18.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jun-2023 14:44:18.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jun-2023 14:44:18.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jun-2023 14:44:18.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jun-2023 14:44:18.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 14:44:18.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 14:44:18.091 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\temp
+09-Jun-2023 14:44:18.097 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Arquivos de Programas 2\Git\cmd;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\GABRIEL\AppData\Local\Microsoft\WindowsApps;;C:\Users\GABRIEL\AppData\Local\Programs\Microsoft VS Code\bin;.]
+09-Jun-2023 14:44:18.455 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 14:44:18.487 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [653] milliseconds
+09-Jun-2023 14:44:18.548 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jun-2023 14:44:18.548 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.9]
+09-Jun-2023 14:44:18.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml]
+09-Jun-2023 14:44:18.583 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicationFreshFood] in deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has been ignored
+09-Jun-2023 14:44:19.368 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 14:44:19.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has finished in [891] ms
+09-Jun-2023 14:44:19.457 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\docs]
+09-Jun-2023 14:44:19.531 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 14:44:19.533 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\docs] has finished in [76] ms
+09-Jun-2023 14:44:19.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\examples]
+09-Jun-2023 14:44:19.889 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 14:44:19.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\examples] has finished in [423] ms
+09-Jun-2023 14:44:19.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\host-manager]
+09-Jun-2023 14:44:20.045 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 14:44:20.053 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\host-manager] has finished in [95] ms
+09-Jun-2023 14:44:20.053 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\manager]
+09-Jun-2023 14:44:20.121 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 14:44:20.124 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\manager] has finished in [70] ms
+09-Jun-2023 14:44:20.124 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\ROOT]
+09-Jun-2023 14:44:20.179 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 14:44:20.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\ROOT] has finished in [58] ms
+09-Jun-2023 14:44:20.187 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 14:44:20.235 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1742] milliseconds
+09-Jun-2023 14:44:20.893 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplicationFreshFood]
+09-Jun-2023 14:44:20.912 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml]
+09-Jun-2023 14:44:20.914 WARNING [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicationFreshFood] in deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has been ignored
+09-Jun-2023 14:44:21.365 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 14:44:21.369 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has finished in [457] ms
+09-Jun-2023 14:44:21.374 INFO [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplicationFreshFood]] after start() had already been called. The second call will be ignored.
+09-Jun-2023 14:59:10.534 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplicationFreshFood]
+09-Jun-2023 14:59:10.548 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml]
+09-Jun-2023 14:59:10.551 WARNING [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicationFreshFood] in deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has been ignored
+09-Jun-2023 14:59:10.978 INFO [http-nio-8080-exec-14] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 14:59:10.983 INFO [http-nio-8080-exec-14] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has finished in [435] ms
+09-Jun-2023 14:59:10.988 INFO [http-nio-8080-exec-17] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplicationFreshFood]] after start() had already been called. The second call will be ignored.
+09-Jun-2023 15:07:15.366 WARNING [http-nio-8080-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebApplicationFreshFood] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Jun-2023 15:07:15.367 WARNING [http-nio-8080-exec-23] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebApplicationFreshFood] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+09-Jun-2023 15:07:15.884 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplicationFreshFood]
+09-Jun-2023 15:07:15.896 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml]
+09-Jun-2023 15:07:15.898 WARNING [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicationFreshFood] in deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has been ignored
+09-Jun-2023 15:07:15.931 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1457)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:1047)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1623)
+09-Jun-2023 15:07:16.334 INFO [http-nio-8080-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 15:07:16.337 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has finished in [441] ms
+09-Jun-2023 15:07:16.341 INFO [http-nio-8080-exec-21] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplicationFreshFood]] after start() had already been called. The second call will be ignored.
+09-Jun-2023 15:11:33.154 INFO [http-nio-8080-exec-36] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplicationFreshFood]
+09-Jun-2023 15:11:33.166 INFO [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml]
+09-Jun-2023 15:11:33.168 WARNING [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicationFreshFood] in deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has been ignored
+09-Jun-2023 15:11:33.554 INFO [http-nio-8080-exec-37] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 15:11:33.557 INFO [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has finished in [391] ms
+09-Jun-2023 15:11:33.559 INFO [http-nio-8080-exec-32] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplicationFreshFood]] after start() had already been called. The second call will be ignored.
+09-Jun-2023 15:21:49.666 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Jun-2023 15:21:49.667 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 15:21:49.673 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Jun-2023 15:21:49.695 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebApplicationFreshFood] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Jun-2023 15:21:49.695 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebApplicationFreshFood] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+09-Jun-2023 15:21:49.699 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 15:21:49.708 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 15:30:39.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.9
+09-Jun-2023 15:30:39.948 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2023 14:30:05 UTC
+09-Jun-2023 15:30:39.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.9.0
+09-Jun-2023 15:30:39.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Jun-2023 15:30:39.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Jun-2023 15:30:39.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Jun-2023 15:30:39.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-20
+09-Jun-2023 15:30:39.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           20.0.1+9-29
+09-Jun-2023 15:30:39.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Jun-2023 15:30:39.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 15:30:39.950 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 15:30:39.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\logging.properties
+09-Jun-2023 15:30:39.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Jun-2023 15:30:39.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Jun-2023 15:30:39.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Jun-2023 15:30:39.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Jun-2023 15:30:39.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Jun-2023 15:30:39.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Jun-2023 15:30:39.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Jun-2023 15:30:39.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Jun-2023 15:30:39.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 15:30:39.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9
+09-Jun-2023 15:30:39.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\temp
+09-Jun-2023 15:30:39.970 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;F:\Arquivos de Programas 2\Git\cmd;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Users\GABRIEL\AppData\Local\Microsoft\WindowsApps;;C:\Users\GABRIEL\AppData\Local\Programs\Microsoft VS Code\bin;.]
+09-Jun-2023 15:30:40.380 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 15:30:40.446 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [721] milliseconds
+09-Jun-2023 15:30:40.584 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Jun-2023 15:30:40.585 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.9]
+09-Jun-2023 15:30:40.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml]
+09-Jun-2023 15:30:40.654 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicationFreshFood] in deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has been ignored
+09-Jun-2023 15:30:41.708 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 15:30:41.793 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has finished in [1.186] ms
+09-Jun-2023 15:30:41.794 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\docs]
+09-Jun-2023 15:30:41.986 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 15:30:41.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\docs] has finished in [196] ms
+09-Jun-2023 15:30:41.990 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\examples]
+09-Jun-2023 15:30:42.383 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 15:30:42.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\examples] has finished in [459] ms
+09-Jun-2023 15:30:42.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\host-manager]
+09-Jun-2023 15:30:42.566 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 15:30:42.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\host-manager] has finished in [125] ms
+09-Jun-2023 15:30:42.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\manager]
+09-Jun-2023 15:30:42.652 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 15:30:42.655 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\manager] has finished in [79] ms
+09-Jun-2023 15:30:42.655 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\ROOT]
+09-Jun-2023 15:30:42.717 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 15:30:42.720 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\webapps\ROOT] has finished in [65] ms
+09-Jun-2023 15:30:42.724 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 15:30:42.765 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2317] milliseconds
+09-Jun-2023 15:30:43.415 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplicationFreshFood]
+09-Jun-2023 15:30:43.433 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml]
+09-Jun-2023 15:30:43.434 WARNING [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/WebApplicationFreshFood] in deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has been ignored
+09-Jun-2023 15:30:43.925 INFO [http-nio-8080-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 15:30:43.934 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Downloads\apache-tomcat-10.1.9\apache-tomcat-10.1.9\conf\Catalina\localhost\WebApplicationFreshFood.xml] has finished in [502] ms
+09-Jun-2023 15:30:43.941 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/WebApplicationFreshFood]] after start() had already been called. The second call will be ignored.
+09-Jun-2023 15:32:29.304 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplicationFreshFood] has started
+09-Jun-2023 15:32:29.736 INFO [http-nio-8080-exec-12] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Jun-2023 15:32:29.739 INFO [http-nio-8080-exec-12] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplicationFreshFood] is completed
+09-Jun-2023 15:43:30.234 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+09-Jun-2023 15:43:30.235 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 15:43:30.245 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Jun-2023 15:43:30.320 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [WebApplicationFreshFood] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Jun-2023 15:43:30.322 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [WebApplicationFreshFood] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1623)
+09-Jun-2023 15:43:30.339 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Jun-2023 15:43:30.352 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

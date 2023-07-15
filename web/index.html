@@ -1,0 +1,149 @@
+
+<!--   Document   : index.html
+    Created on : 08/06/2023, 18:20:54
+    Author     : Gabriel Marques e Fellipe Mattew
+-->
+<html>
+    <head>
+        <title>Venda de Celulares</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-25..200"/>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+            
+
+            body{
+                background-color: #FBFBFB;
+            }
+header {
+    background-color: #FFF;
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 8px #ddd;
+}
+/* Nav bar */
+.logo-image {
+    max-height: 30%;
+    max-width: 30%; 
+}
+
+.narvbar-ul  {
+    padding: 0 20px;
+    list-style-type: none;
+    display: flex;
+}
+ 
+.narvbar-ul a {
+    text-decoration: none;
+    color: #00CBCC;
+    font-size: 20px;
+    letter-spacing: .1rem;
+}
+
+.narvbar-ul a:hover {
+    color: #009092;
+    transition: all .4s ease-in;
+}
+
+.wrapper{
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1440px;
+}
+
+#linha {
+    /*
+    background-color: #00CBCC;
+    display: inline-block;
+    height: 5px;
+    width: 1px;*/
+    margin: auto;
+    background-color: #009092;
+    height: 16px;
+    width: 1px;
+    display: inline-block;
+}
+.ldp{
+    
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-around;
+}
+main p {
+    font-size: 35px;
+    letter-spacing: .12rem;
+    font-weight: 400;
+}
+
+
+
+.ldp>p{
+    margin-top: 20px;
+    width: 50%;
+}
+.img-ldp{
+    width: 25%;
+    height: 25%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.material-symbols-outlined {
+font-size: 20px;
+font-variation-settings:
+'FILL' 0,
+'wght' 500,
+'GRAD' 0,
+'opsz' 34}
+            
+button{
+padding: 10px;
+margin-right:20px;
+ text-align: center; }
+ body { color: black; }
+ section{
+     margin-top: 50px;
+ }
+          
+        </style>
+    </head>
+    <body>
+        <!-- Logo e Titulo-->
+         <header>
+        <a href="../index.html"><img src="image/logo.png" alt="Logo" class="logo-image"></a>
+        <nav class="navbar-nav">
+            <ul class="narvbar-ul">
+             <li><button onclick="document.location='prod_cad.html'"><span class="material-symbols-outlined">person_add</span> Cadastro</button><br></li>
+             <li><button onclick="document.location='prod_cons.html'"><span class="material-symbols-outlined">plagiarism</span> Consulta</button><br></li>
+             <li><button onclick="document.location='cell_cons_geral.jsp'"><span class="material-symbols-outlined">fact_check</span> Consulta Geral</button><br></li>
+             <li><button onclick="document.location='cell_cons_geral.jsp'"><span class="material-symbols-outlined">update</span> Alterar</button><br></li>
+             <li><button onclick="document.location='prod_del.html'"><span class="material-symbols-outlined">delete</span> Apagar</button> <br></li>
+            </ul>
+        </nav>
+    </header>
+        <main class="wrapper">
+            <section>
+            <div class="ldp">
+                <p>
+                    <span style="font-size:62px;">Bem-vindo ao <span style="color: #8C52FF; text-transform: uppercase; font-weight: 600;">Cell Vendas</span></span>,
+                    <br/><span style="font-size:18px;">o melhor lugar para venda e compras de celulares.</span>
+                </p>
+                
+            
+                <img class="img-ldp" src="./image/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-deep-purple-220907-scaled.jpg" alt="">
+            </div>
+
+        </section>
+        </main>
+ 
+           
+ 
+
+    </body>
+</html>
